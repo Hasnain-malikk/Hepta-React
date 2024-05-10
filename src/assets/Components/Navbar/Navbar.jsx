@@ -51,3 +51,14 @@
 // };
 
 // export default Navbar;
+import React from 'react'
+
+const Navbar = () => {
+  return (
+    <div>
+     I M NAVBAR 
+    </div>
+  )
+}
+
+export default Navbar
