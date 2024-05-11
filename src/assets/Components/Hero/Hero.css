@@ -46,6 +46,8 @@
      font-weight: 200;
      font-style: normal;
      font-size: 18px;
+     padding: 10px;
+     line-height: 32px;
 }
 .para2 {
      background-color: rgb(237, 100, 184);
