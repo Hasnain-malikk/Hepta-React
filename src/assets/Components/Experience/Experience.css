@@ -1,0 +1,57 @@
+.exp
+{
+    background-color: darksalmon;
+    height: 180vh;
+    width: 98vw;
+}
+.top{
+    background-color: lightseagreen;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom{
+    background-color: lightpink;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading1{
+    background-color: crimson;
+    height: 20%;
+    width: 60%;
+}
+.paraa{
+    background-color: darkgreen;
+    height: 65%;
+    width: 60%;
+}
+.block
+{
+    height: 30%;
+    width: 30%;
+}
+#a{
+    background-color: darkolivegreen;
+}
+#b{
+    background-color: cyan;
+}
+#c{
+    background-color: chocolate;
+}
+#d{
+    background-color: cornsilk;
+}
+#e{
+    background-color: aquamarine;
+}
+#f{
+    background-color: darkslateblue;
+}
