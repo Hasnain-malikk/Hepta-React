@@ -53,6 +53,35 @@
     height: 260px;
     width: 390px;
 }
+
+
+
+
+.img1{
+    /* border: 2px solid red; */
+background-image: url("../Media/logo1.png");
+    /* background-color: aquamarine; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    /* margin-top: 10%;
+    margin-left: 10%; */
+    margin: 20px auto;
+    width: 30%;
+}
+.head1{
+    background-color: crimson;
+    height: auto;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;  
+    text-align: center;
+}
+.paraaa{
+    background-color: coral;
+    height: auto;
+}
 #a{
     background-color: darkolivegreen;
 }
