@@ -1,20 +1,22 @@
 .exp
 {
-    background-color: darksalmon;
+    background-color: #fafafa;
     height: 180vh;
     width: 98vw;
 }
 .top{
-    background-color: lightseagreen;
-    height: 30%;
+    /* background-color: lightseagreen; */
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .bottom{
-    background-color: lightpink;
+    /* background-color: lightpink; */
     height: 60%;
     width: 100%;
     display: flex;
@@ -23,7 +25,7 @@
     align-items: center;
 }
 .heading1{
-    background-color: crimson;
+    /* background-color: crimson; */
     height: auto;
     padding: 12px 0;
     width: 90%;
@@ -35,9 +37,10 @@
      justify-content: center;
      align-items: center;
      text-align: center;
+     color: black;
 }
 .paraa{
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     height: 65%;
     width: 53%;
     text-align: center;
@@ -51,7 +54,14 @@
 .block
 {
     height: 260px;
-    width: 390px;
+    width: 345px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(108, 117, 125);
+    text-align: center;
 }
 
 
@@ -68,42 +78,109 @@ background-image: url("../Media/logo1.png");
     margin-left: 10%; */
     margin: 20px auto;
     width: 30%;
+    
+}
+.img2{
+    /* border: 2px solid red; */
+background-image: url("../Media/2.svg");
+    /* background-color: aquamarine; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    /* margin-top: 10%;
+    margin-left: 10%; */
+    margin: 20px auto;
+    width: 30%;
+    
+}
+.img3{
+    /* border: 2px solid red; */
+background-image: url("../Media/3.svg");
+    /* background-color: aquamarine; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    /* margin-top: 10%;
+    margin-left: 10%; */
+    margin: 20px auto;
+    width: 30%;
+    
+}
+.img4{
+    /* border: 2px solid red; */
+background-image: url("../Media/4.svg");
+    /* background-color: aquamarine; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    /* margin-top: 10%;
+    margin-left: 10%; */
+    margin: 20px auto;
+    width: 30%;
+    
+}
+.img5{
+    /* border: 2px solid red; */
+background-image: url("../Media/5.svg");
+    /* background-color: aquamarine; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    /* margin-top: 10%;
+    margin-left: 10%; */
+    margin: 20px auto;
+    width: 30%;
+    
+}
+.img6{
+    /* border: 2px solid red; */
+background-image: url("../Media/6.svg");
+    /* background-color: aquamarine; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    /* margin-top: 10%;
+    margin-left: 10%; */
+    margin: 20px auto;
+    width: 30%;
+    
 }
 .head1{
-    background-color: crimson;
+    /* background-color: crimson; */
     height: auto;
     font-family: "Abril Fatface", serif;
     font-weight: 500;
     font-style: normal;
     font-size: 28px;  
     text-align: center;
+    padding-bottom: 20px;
 }
 .paraaa{
-    background-color: coral;
+    /* background-color: coral; */
     height: auto;
 }
 #a{
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 #b{
-    background-color: cyan;
+    /* background-color: cyan; */
 }
 #c{
-    background-color: chocolate;
+    /* background-color: chocolate; */
 }
 #d{
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
 }
 #e{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 #f{
-    background-color: darkslateblue;
+    /* background-color: darkslateblue; */
 }
 @media (max-width: 600px) {
     .bottom {
       height: auto; /* Let the height adjust based on content */
-      background-color: cornflowerblue;
+      /* background-color: cornflowerblue; */
     }
     .block {
        margin-bottom: 20px;
