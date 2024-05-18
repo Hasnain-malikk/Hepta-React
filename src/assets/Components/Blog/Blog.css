@@ -2,6 +2,9 @@
     background-color: darkgoldenrod;
     height: 180vh;
     padding: 50px;
+    /* justify-content: center;
+    display: flex;
+    align-items: center; */
 }
 .blog-post{
     background-color: chartreuse;
@@ -13,12 +16,62 @@
 .card{
     background-color: blue;
     height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .headingbp{
     background-color: darkorchid;
-    height: 80px;
+    height: 30%;
+    font-family: "Abril Fatface", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .parabp{
-    background-color: antiquewhite;
+    background-color: rgb(252, 143, 0);
     height: 70%;
+    width: auto;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.7);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    margin: 0 200px;
+}
+.headingbp p {
+    font-size: 1em;
+}
+.card1{
+    background-color: crimson;
+    width: 30%;
+    height: 90%;
+}
+.card2{
+    background-color: darkcyan;
+    width: 30%;
+    height: 90%;
+}
+.card3{
+    background-color: darkgreen;
+    width: 30%;
+    height: 90%;
+}
+@media screen and (max-width:600px) {
+    .headingbp{
+        font-size: 50px;
+    }
+    .parabp{
+        margin: 0;
+        font-size: 15px;
+    }
+    
 }
