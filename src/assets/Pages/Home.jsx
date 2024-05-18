@@ -4,6 +4,7 @@ import "./Home.css"
 import Experience from '../Components/Experience/Experience'
 import Carousel from '../Components/Carousel/Carousel'
 import Blog from '../Components/Blog/Blog'
+import Customers from '../Components/Customers/Customers'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Experience/>
       <Carousel/>
       <Blog/>
+      <Customers/>
     </div>
   )
 }

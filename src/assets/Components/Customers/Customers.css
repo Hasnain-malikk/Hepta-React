@@ -1,0 +1,63 @@
+.customer{
+    background-color: cornsilk;
+    height: 125vh;
+}
+.heading9{
+    height: 35%;
+    background-color: crimson;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review{
+    height: 60%;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.custom2{
+    height: 370px;
+    width: 390px;
+    background-color: aquamarine;
+}
+.custom1{
+    height: 370px;
+    background-color: indigo;
+    width: 390px;
+}
+.custom3{
+    height: 370px;
+    background-color: darkturquoise;
+    width: 390px;
+}
+@media screen and (max-width:600px) {
+    .custom1{
+        margin: 20px;
+        width: 445px;
+    }
+    .custom2{
+        margin: 10px;
+        width: 445px;
+    }
+    .custom3{
+        margin: 20px;
+        width: 445px;
+    }
+    .review{
+        height: auto;
+    }
+    .heading9{
+        height: 160px;
+        font-size: 55px;
+    }
+    .customer{
+        height: 310vh;
+    }
+}
