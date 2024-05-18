@@ -1,20 +1,20 @@
 .blog{
-    background-color: darkgoldenrod;
-    height: 177vh;
+    background-color: #65C0BA;
+    height: 143vh;
     padding: 50px;
     /* justify-content: center;
     display: flex;
     align-items: center; */
 }
 .blog-post{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 35%;
     /* display: flex;
     justify-content: center;
     align-items: center; */
 }
 .card{
-    background-color: blue;
+    /* background-color: blue; */
     height: 65%;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@
     flex-wrap: wrap;
 }
 .headingbp{
-    background-color: darkorchid;
+    /* background-color: darkorchid; */
     height: 30%;
     font-family: "Abril Fatface", serif;
     font-weight: 800;
@@ -33,7 +33,7 @@
     align-items: center;
 }
 .parabp{
-    background-color: rgb(252, 143, 0);
+    /* background-color: rgb(252, 143, 0); */
     height: 70%;
     width: auto;
     font-family: "Mukta Mahee", sans-serif;
@@ -52,23 +52,26 @@
     font-size: 1em;
 }
 .card1{
-    background-color: crimson;
+    /* background-color: crimson; */
     width: 365px;
     height: 500px;
+    background-color: white;
 }
 .card2{
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     width: 365px;
     height: 500px;
+    background-color: white;
 }
 .card3{
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     width: 365px;
     height: 500px;
+    background-color: white;
 }
 .pic1{
-    background-color: aqua;
-    height: 40%;
+    /* background-color: aqua; */
+    height: 45%;
 }
 .pic1 img {
     height: 100%;
@@ -76,7 +79,7 @@
     object-fit: cover;
 }
 .date1{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 10%;
     font-family: "Mukta Mahee", sans-serif;
     font-weight: 200;
@@ -86,21 +89,37 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    margin: 0 38px;
 }
 .head45{
-    background-color: grey;
+    /* background-color: grey; */
     height: 15%;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 26px;
+    margin: 0 38px;
+    line-height: 31px;
 }
 .para45{
-    background-color: rgb(0, 128, 255);
-    height: 35%;
+    /* background-color: rgb(0, 128, 255); */
+    height: 25%;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(108, 117, 125);
+    line-height: 32px;
+    margin: 0 38px;
+    /* display: flex;
+    align-items: center; */
 }
 @media screen and (max-width:600px) {
     .headingbp{
         font-size: 50px;
     }
     .parabp{
-        margin: 10px;
+        margin: 20px 0;
         font-size: 15px;
     }
     .blog{

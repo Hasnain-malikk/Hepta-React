@@ -15,11 +15,17 @@ const Blog = () => {
         <div className="card1">
             <div className="pic1"><img src={s1} alt={"img"} /></div>
             <div className="date1">FEBRUARY 26, 2018</div>
-            <div className="head45"></div>
-            <div className="para45"></div>
+            <div className="head45">45 Best Places To Unwind</div>
+            <div className="para45">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
         </div>
-        <div className="card2"></div>
-        <div className="card3"></div>
+        <div className="card2"><div className="pic1"><img src={s2} alt={"img"} /></div>
+            <div className="date1">FEBRUARY 26, 2018</div>
+            <div className="head45">45 Best Places To Unwind</div>
+            <div className="para45">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div></div>
+        <div className="card3"><div className="pic1"><img src={s6} alt={"img"} /></div>
+            <div className="date1">FEBRUARY 26, 2018</div>
+            <div className="head45">45 Best Places To Unwind</div>
+            <div className="para45">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div></div>
       </div>
     </div>
   )

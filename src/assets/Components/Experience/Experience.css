@@ -50,6 +50,7 @@
     font-size: 18px;
     line-height: 32px;
     color: rgb(108, 117, 125);
+    margin: 20px;
 }
 .block
 {
@@ -175,6 +176,7 @@ background-image: url("../Media/6.svg");
     .paraa{
         width: 90%;
         font-size: 15px;
+        margin: 0;
     }
   }
   
