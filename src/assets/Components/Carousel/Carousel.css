@@ -78,3 +78,31 @@
     margin: 0 335px;
     line-height: 36px;
   }
+@media (max-width:600px) {
+  .heading2{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 27px 0;
+    line-height: 39px;
+  }
+  .para33 {
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(108, 117, 125);
+    margin: 0px 40px;
+    line-height: 27px;
+}
+.carousel{
+  height: 85vh;
+}
+.carousel-wrapper .btn{
+  background-color: rgb(0 0 0 / 0%);
+}
+  
+}

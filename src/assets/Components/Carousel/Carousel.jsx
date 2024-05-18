@@ -1,10 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import "./Carousel.css";
-import bitc from "../Media/bitc.jpeg";
-import bitc2 from "../Media/bitc2.jpeg";
-import bitc3 from "../Media/bitc3.jpeg";
-import bitc4 from "../Media/bitc4.jpeg";
-import bitc6 from "../Media/bitc6.jpeg";
+import s1 from "../Media/s1.webp"
+import s2 from "../Media/s2.webp"
+import s3 from "../Media/s3.webp"
+import s4 from "../Media/s4.webp"
+import s5 from "../Media/s5.webp"
+import s6 from "../Media/s6.webp"
+import { faStopwatch20 } from '@fortawesome/free-solid-svg-icons/faStopwatch20';
 
 const Carousel = () => {
   const carouselRef = useRef(null);
@@ -56,19 +58,19 @@ const Carousel = () => {
     <div className='carousel' ref={carouselRef}>
       <div className="carousel-wrapper">
         <div className="slide" data-slide>
-          <img src={bitc} alt="Slide 1" />
+          <img src={s1} alt="Slide 1" />
         </div>
         <div className="slide" data-slide>
-          <img src={bitc2} alt="Slide 2" />
+          <img src={s2} alt="Slide 2" />
         </div>
         <div className="slide" data-slide>
-          <img src={bitc3} alt="Slide 3" />
+          <img src={s3} alt="Slide 3" />
         </div>
         <div className="slide" data-slide>
-          <img src={bitc4} alt="Slide 4" />
+          <img src={s4} alt="Slide 4" />
         </div>
         <div className="slide" data-slide>
-          <img src={bitc6} alt="Slide 5" />
+          <img src={s5} alt="Slide 5" />
         </div>
         <button className="btn previous" data-button="previous">
           <i className="bi bi-chevron-left"></i>

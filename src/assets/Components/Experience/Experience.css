@@ -1,7 +1,7 @@
 .exp
 {
     background-color: #fafafa;
-    height: 180vh;
+    height: auto;
     width: 98vw;
 }
 .top{
@@ -53,6 +53,7 @@
 }
 .block
 {
+    margin-bottom: 40px;
     height: 260px;
     width: 345px;
     font-family: "Mukta Mahee", sans-serif;
@@ -158,24 +159,6 @@ background-image: url("../Media/6.svg");
 .paraaa{
     /* background-color: coral; */
     height: auto;
-}
-#a{
-    /* background-color: darkolivegreen; */
-}
-#b{
-    /* background-color: cyan; */
-}
-#c{
-    /* background-color: chocolate; */
-}
-#d{
-    /* background-color: cornsilk; */
-}
-#e{
-    /* background-color: aquamarine; */
-}
-#f{
-    /* background-color: darkslateblue; */
 }
 @media (max-width: 600px) {
     .bottom {
