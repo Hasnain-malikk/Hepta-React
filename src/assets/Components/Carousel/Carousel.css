@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: bottom;
 }
 .carousel-wrapper {
     width: 100%;
@@ -31,7 +32,7 @@
   
   .carousel-wrapper .btn {
     font-size: 2rem;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0);
     color: #ffffff;
     padding: 8px 10px;
     border-radius: 50%;
@@ -42,7 +43,7 @@
     cursor: pointer;
   }
   .carousel-wrapper .btn:hover {
-    background: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0);
   }
   
   .btn.previous {
@@ -78,6 +79,9 @@
     margin: 0 335px;
     line-height: 36px;
   }
+  .bi{color:rgba(0, 0, 0, 0.678);
+
+  }
 @media (max-width:600px) {
   .heading2{
     font-family: "Abril Fatface", serif;
@@ -100,6 +104,7 @@
 }
 .carousel{
   height: 85vh;
+  background-position: right;
 }
 .carousel-wrapper .btn{
   background-color: rgb(0 0 0 / 0%);
