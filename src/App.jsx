@@ -22,7 +22,7 @@ const App = () => {
       <Route path="/hotels" element={<Hotels/>} />
       <Route path="/news" element={<News/>} />
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </BrowserRouter>
   );
 };

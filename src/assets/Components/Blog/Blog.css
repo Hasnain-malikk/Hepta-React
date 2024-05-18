@@ -1,6 +1,6 @@
 .blog{
     background-color: darkgoldenrod;
-    height: 180vh;
+    height: 177vh;
     padding: 50px;
     /* justify-content: center;
     display: flex;
@@ -17,8 +17,9 @@
     background-color: blue;
     height: 65%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .headingbp{
     background-color: darkorchid;
@@ -52,26 +53,75 @@
 }
 .card1{
     background-color: crimson;
-    width: 30%;
-    height: 90%;
+    width: 365px;
+    height: 500px;
 }
 .card2{
     background-color: darkcyan;
-    width: 30%;
-    height: 90%;
+    width: 365px;
+    height: 500px;
 }
 .card3{
     background-color: darkgreen;
-    width: 30%;
-    height: 90%;
+    width: 365px;
+    height: 500px;
+}
+.pic1{
+    background-color: aqua;
+    height: 40%;
+}
+.pic1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.date1{
+    background-color: blueviolet;
+    height: 10%;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(206, 212, 218);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.head45{
+    background-color: grey;
+    height: 15%;
+}
+.para45{
+    background-color: rgb(0, 128, 255);
+    height: 35%;
 }
 @media screen and (max-width:600px) {
     .headingbp{
         font-size: 50px;
     }
     .parabp{
-        margin: 0;
+        margin: 10px;
         font-size: 15px;
     }
-    
+    .blog{
+        height: auto;
+    }
+    .blog-post{
+        height: 8%;
+    }
+    .card{
+        height: 68%;
+    }
+    .card1{
+        margin: 0  auto;
+        width: 100%;
+    }
+    .card2{
+        margin: 35px auto;
+        width: 100%;
+    }
+    .card3{
+        margin: 0 auto;
+        width: 100%;
+    }
 }

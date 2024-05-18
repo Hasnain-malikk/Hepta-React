@@ -5,8 +5,6 @@ import s2 from "../Media/s2.webp"
 import s3 from "../Media/s3.webp"
 import s4 from "../Media/s4.webp"
 import s5 from "../Media/s5.webp"
-import s6 from "../Media/s6.webp"
-import { faStopwatch20 } from '@fortawesome/free-solid-svg-icons/faStopwatch20';
 
 const Carousel = () => {
   const carouselRef = useRef(null);
