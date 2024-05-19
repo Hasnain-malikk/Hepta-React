@@ -1,9 +1,9 @@
 .destination{
-    background-color: rgb(5, 255, 255);
+    /* background-color: rgb(5, 255, 255); */
     height: 135vh;
 }
 .text98{
-    background-color: fuchsia;
+    /* background-color: fuchsia; */
     height: 45%;
     width: auto;
     display: flex;
@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 .card98{
-    background-color: rgb(232, 223, 142);
+    /* background-color: rgb(232, 223, 142); */
     height: 280px;
     display: flex;
     justify-content: space-evenly;
@@ -20,7 +20,7 @@
     flex-wrap: wrap;
 }
 .heading98{
-    background-color: darkred;
+    /* background-color: darkred; */
     height: 20%;
     font-family: "Abril Fatface", serif; 
     font-weight: 500;
@@ -32,7 +32,7 @@
     align-items: center;
 }
 .para98{
-    background-color: hotpink;
+    /* background-color: hotpink; */
     height: 40%;
     font-family: "Mukta Mahee", sans-serif;
     font-weight: 200;
@@ -46,17 +46,17 @@
     text-align: center;
 }
 .c1{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 245px;
     width: 255px;
 }
 .pic98{
     height: 70%;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     width: 100%;
 }
 .head98{
-    background-color: firebrick;
+    /* background-color: firebrick; */
     height: 18%;
     font-family: "Abril Fatface", serif;
     font-weight: 500;
@@ -66,13 +66,22 @@
     align-items: center;
 }
 .star98{
-    background-color: mediumvioletred;
+    /* background-color: mediumvioletred; */
     height: 12%;
+    display: flex;
+    justify-content: space-between;
 }
 .pic98 img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.rew{
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(204, 204, 204);
 }
 
 @media screen and (max-width:600px) {

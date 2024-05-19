@@ -56,13 +56,13 @@ const Carousel = () => {
     <div className='carousel' ref={carouselRef}>
       <div className="carousel-wrapper">
         <div className="slide" data-slide>
-          <img src={s1} alt="Slide 1" />
+          <img src={s3} alt="Slide 1" />
         </div>
         <div className="slide" data-slide>
           <img src={s2} alt="Slide 2" />
         </div>
         <div className="slide" data-slide>
-          <img src={s3} alt="Slide 3" />
+          <img src={s1} alt="Slide 3" />
         </div>
         <div className="slide" data-slide>
           <img src={s4} alt="Slide 4" />
