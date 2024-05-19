@@ -58,7 +58,7 @@
      font-style: normal;
      font-size: 18px;
      line-height: 32px;
-     padding: 90px 0 62px 0;
+     padding: 65px 0 62px 0;
      color: rgb(108, 117, 125);
 }
 .btn {
@@ -70,10 +70,11 @@
      font-style: normal;
      font-size: 18px;
      line-height: 32px;
+     padding-top: 30px;
 }
 .play {
      border: 2px solid lightgray;
-     padding: 15px 17px 15px 17px;
+     padding: 10px 15px 10px 15px;
      border-radius: 50%;
 }
 @media (max-width:600px) {

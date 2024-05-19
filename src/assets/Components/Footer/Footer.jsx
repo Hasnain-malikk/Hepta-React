@@ -1,5 +1,10 @@
 import React from 'react';
 import './Footer.css';
+import github from "../Media/github.svg"
+import instagram from "../Media/instagram.svg"
+import linkedin from "../Media/linkedin.svg"
+import twitter from "../Media/twitter.svg"
+import youtube from "../Media/youtube.svg"
 
 const Footer = () => {
     return (
@@ -28,7 +33,7 @@ const Footer = () => {
                         </h2>
                     </section> */}
                     <section>
-                        <h3>Product</h3>
+                        <h3>Quick Link</h3>
                         <ul>
                             <li><a href="#" title="API">API</a></li>
                             <li><a href="#" title="Pricing">Pricing</a></li>
@@ -38,9 +43,9 @@ const Footer = () => {
                         </ul>
                     </section>
                     <section>
-                        <h3>Resources</h3>
+                        <h3>Support</h3>
                         <ul>
-                            <li><a href="#" title="Support">Support</a></li>
+                            <li><a href="#" title="Support">Our Location</a></li>
                             <li><a href="#" title="Sitemap">Sitemap</a></li>
                             <li><a href="#" title="Newsletter">Newsletter</a></li>
                             <li><a href="#" title="Help Centre">Help Centre</a></li>
@@ -48,7 +53,7 @@ const Footer = () => {
                         </ul>
                     </section>
                     <section>
-                        <h3>Company</h3>
+                        <h3>Contact info</h3>
                         <ul>
                             <li><a href="#" title="About Us">About Us</a></li>
                             <li><a href="#" title="Blog">Blog</a></li>
@@ -73,27 +78,27 @@ const Footer = () => {
                         <ul>
                             <li>
                                 <a href="#" title="Instagram">
-                                    <img src="assets/instagram.svg" alt='Instagram' />                       
+                                    <img src={instagram} alt='Instagram' />                       
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Linkedin">
-                                    <img src="assets/linkedin.svg" alt='Linkedin' />
+                                    <img src={linkedin} alt='Linkedin' />
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Twitter">
-                                    <img src="assets/twitter.svg" alt='Twitter' />
+                                    <img src={twitter} alt='Twitter' />
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Youtube">
-                                    <img src="assets/youtube.svg" alt='YouTube' />
+                                    <img src={youtube} alt='YouTube' />
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="GitHub">
-                                    <img src="assets/github.svg" alt='GitHub' />
+                                    <img src={github} alt='GitHub' />
                                 </a>
                             </li>
                         </ul>

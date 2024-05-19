@@ -80,6 +80,12 @@ footer {
 }
 
 .footer-subscribe > input {
+    font-family: 'Mukta Mahee';
+    font-style: italic;
+    font-size: 18px;
+    color: grey;
+    padding: 0.5rem 3.75rem 0.5rem 0.75rem;
+    font-weight: 100;
     border: 1px solid var(--button-border);
     color: var(--text-color);
     outline: none;
@@ -87,7 +93,6 @@ footer {
     background: var(--footer-background);
     font-size: 1.2rem;
     flex: 1 0 120px;
-    padding: 0.5rem 0.75rem;
     border-radius: 0.5rem;
 }
 
@@ -109,6 +114,9 @@ footer {
     border: 0;
     outline: none;
     border: 1px solid var(--button-border);
+    font-family: 'Mukta Mahee';
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* footer columns */
@@ -273,6 +281,9 @@ footer {
 @media screen and (max-width:600px) {
     .footer-columns > section {
         min-width: 16rem;
+    }
+    .footer-bottom > small {
+        padding-bottom: 5px;
     }
     
 }
