@@ -12,10 +12,12 @@
     flex-direction: column;
 }
 .card98{
-    background-color: cyan;
-    height: 55%;
+    background-color: rgb(232, 223, 142);
+    height: 280px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    flex-wrap: wrap;
 }
 .heading98{
     background-color: darkred;
@@ -42,17 +44,30 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    /* align-items: center; */
 }
 .c1{
     background-color: aquamarine;
-    height: 80%;
-    width: 20%;
+    height: 245px;
+    width: 255px;
 }
 
 @media screen and (max-width:600px) {
     .para98{
         width: 78%;
         font-size: 15px;
+    }
+    .c1{
+        height: 300px;
+        width: 510px;
+        margin: 10px;
+    }
+    .text98{
+        height: 280px;
+    }
+    .destination{
+        height: 350vh;
+    }
+    .card98{
+        height: calc(100% - 350px);
     }
 }
