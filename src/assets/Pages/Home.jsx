@@ -5,6 +5,7 @@ import Experience from '../Components/Experience/Experience'
 import Carousel from '../Components/Carousel/Carousel'
 import Blog from '../Components/Blog/Blog'
 import Customers from '../Components/Customers/Customers'
+import Destination from '../Components/Destination/Destination'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Carousel/>
       <Blog/>
       <Customers/>
+      <Destination/>
     </div>
   )
 }

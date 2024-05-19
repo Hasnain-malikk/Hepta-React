@@ -1,0 +1,58 @@
+.destination{
+    background-color: rgb(5, 255, 255);
+    height: 135vh;
+}
+.text98{
+    background-color: fuchsia;
+    height: 45%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+    flex-direction: column;
+}
+.card98{
+    background-color: cyan;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.heading98{
+    background-color: darkred;
+    height: 20%;
+    font-family: "Abril Fatface", serif; 
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para98{
+    background-color: hotpink;
+    height: 40%;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(108, 117, 125);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+}
+.c1{
+    background-color: aquamarine;
+    height: 80%;
+    width: 20%;
+}
+
+@media screen and (max-width:600px) {
+    .para98{
+        width: 78%;
+        font-size: 15px;
+    }
+}
