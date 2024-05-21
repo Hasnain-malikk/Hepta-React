@@ -1,9 +1,11 @@
 import React from 'react'
+import Main11 from '../Components/Main11/Main11'
+
 
 const Hotels = () => {
   return (
     <div>
-      this is hotels
+      <Main11/>
     </div>
   )
 }

@@ -1,0 +1,28 @@
+.main11 {
+    position: relative;
+    background-image: url(../Media/s3.webp);
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .main11::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.212);
+    z-index: 1; 
+  }
+  
+  .main11 > * {
+    position: relative;
+    z-index: 2; 
+  }
+  

@@ -1,9 +1,10 @@
 import React from 'react'
+import Main13 from '../Components/Main13/Main13'
 
 const Gallery = () => {
   return (
     <div>
-      this is gallery
+      <Main13/>
     </div>
   )
 }
