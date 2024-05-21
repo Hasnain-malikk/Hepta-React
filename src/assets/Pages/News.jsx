@@ -1,9 +1,10 @@
 import React from 'react'
+import Main15 from '../Components/Main15/Main15'
 
 const News = () => {
   return (
     <div>
-      this is news
+      <Main15/>
     </div>
   )
 }

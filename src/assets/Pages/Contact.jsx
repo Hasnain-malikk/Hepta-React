@@ -1,9 +1,10 @@
 import React from 'react'
+import Main16 from '../Components/Main16/Main16'
 
 const Contact = () => {
   return (
     <div>
-      this is contact
+      <Main16/>
     </div>
   )
 }
