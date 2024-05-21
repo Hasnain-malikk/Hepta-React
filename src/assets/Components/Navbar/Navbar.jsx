@@ -73,12 +73,12 @@ const Navbar = () => {
         <div className="bar"></div>
       </div>
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <a href="#">Home</a>
-        <a href="#">Hotels</a>
-        <a href="#">About Us</a>
-        <a href="#">Gallery</a>
-        <a href="#">News</a>
-        <a href="#">Contacts</a>
+        <a href="/">Home</a>
+        <a href="/hotels">Hotels</a>
+        <a href="/aboutus">About Us</a>
+        <a href="/gallery">Gallery</a>
+        <a href="/news">News</a>
+        <a href="/contacts">Contacts</a>
       </div>
     </nav>
   );
