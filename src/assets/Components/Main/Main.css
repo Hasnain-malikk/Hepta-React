@@ -1,19 +1,100 @@
-.main1{
-    background-color: chocolate;
-    height: 125vh;
+.main1 {
+    position: relative; /* Ensure the component is positioned relatively */
+    background-image: url(../Media/background1.webp);
+    height: 139vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .main1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.212); /* Semi-transparent grey */
+    z-index: 1; /* Ensure the overlay is above the background but below the content */
+  }
+  
+  .main1 > * {
+    position: relative;
+    z-index: 2; /* Ensure the content is above the overlay */
+  }
+  
 .main-heading{
-    height: 15%;
-    background-color: cadetblue;
+    height: auto;
+    padding-bottom: 40px;
+    /* background-color: cadetblue; */
+    font-family: "Abril Fatface", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 .main-para{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     height: 15%;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-para a{
+    color: rgba(255, 255, 255, 0.784);
+    text-decoration: none;
+    
+}
+.main-para a:hover {
+    color:white;
 }
 .main-btn{
-    height: 15%;
-    background-color: chartreuse;
+    padding:10px 0 ;
+    height: auto;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.transparent-button {
+    letter-spacing: 3px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid white; 
+    color: white;           
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .transparent-button:hover {
+    background-color: white;
+    color: black;              
+  }
+  @media screen and (max-width:600px) {
+    .main-heading{
+        font-size: 40px;
+        padding-bottom: 0;
+    }
+    .main-para{
+        font-size: 18px;
+    }
+    
+  }
