@@ -179,4 +179,7 @@ background-image: url("../Media/6.svg");
         margin: 0;
     }
   }
+  .dn{
+    display: none;  
+}
   

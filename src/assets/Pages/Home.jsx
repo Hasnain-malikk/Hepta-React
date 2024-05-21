@@ -11,9 +11,10 @@ const Home = () => {
   return (
     <div className='home'> 
       <Main/>
+      <hr style={{display:"inline-block", height:"40px"}}/>
       <Hero/>
       <hr />
-      <Experience/>
+      <Experience display="top"/>
       <Carousel/>
       <Blog/>
       <Customers/>
