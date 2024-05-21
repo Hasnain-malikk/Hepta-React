@@ -1,7 +1,7 @@
 .main1 {
-    position: relative; /* Ensure the component is positioned relatively */
-    background-image: url(../Media/background1.webp);
-    height: 139vh;
+    position: relative;
+    background-image: url(../Media/background1.jpg);
+    height: 130vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,13 +17,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.212); /* Semi-transparent grey */
-    z-index: 1; /* Ensure the overlay is above the background but below the content */
+    background-color: rgba(0, 0, 0, 0.212);
+    z-index: 1; 
   }
   
   .main1 > * {
     position: relative;
-    z-index: 2; /* Ensure the content is above the overlay */
+    z-index: 2; 
   }
   
 .main-heading{
@@ -38,6 +38,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    z-index: 1;
 }
 .main-para{
     /* background-color: cornflowerblue; */
@@ -51,6 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .main-para a{
     color: rgba(255, 255, 255, 0.784);
@@ -67,6 +69,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .transparent-button {

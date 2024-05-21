@@ -51,14 +51,37 @@
 // };
 
 // export default Navbar;
-import React from 'react'
+
+import React, { useState } from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
-  return (
-    <div>
-     I M NAVBAR 
-    </div>
-  )
-}
+  const [isOpen, setIsOpen] = useState(false);
 
-export default Navbar
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className="navbar">
+      <div className="navbar-brand">
+        <a className='brand' href="#">Hepta</a>
+      </div>
+      <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+      <div className={`nav-links ${isOpen ? 'open' : ''}`}>
+        <a href="#">Home</a>
+        <a href="#">Hotels</a>
+        <a href="#">About Us</a>
+        <a href="#">Gallery</a>
+        <a href="#">News</a>
+        <a href="#">Contacts</a>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

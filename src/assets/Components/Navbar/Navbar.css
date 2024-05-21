@@ -1,125 +1,90 @@
-/* body {
-    background: url(../Media/ny.jpg);
-    height: 100%;
-    width: 100%;
+/* Navbar.css */
+.navbar {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px;
+  /* background-color: #333; */
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.brand{
+  font-family: "Abril Fatface", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px; 
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.nav-links {
+ 
+  font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
   }
-  
-  body::before {
-    content: '';
+
+  .nav-links {
+    height: calc(100vh - 100px);
+    display: none;
+    flex-direction: column;
     position: absolute;
-    top: 0;
+    top: 100px; /* Adjust based on your navbar height */
     left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(85, 83, 83, 0.15); 
+    background-color: white;
+    color: black; /* Change text color to black for better visibility */
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
-  .mdl-layout__header-row .mdl-navigation__link {
-    color: #fff;
+
+  .nav-links a {
+    color: black; /* Change link color to black */
+    margin: 15px 0; /* Add some vertical spacing between links */
   }
-  
-  .mdl-layout__header-row .mdl-navigation__link:hover {
-    transition-duration: 0.5s;
-    color: #000;
-  }
-  
-  @media screen and (max-width: 870px) {
-    .hide {
-      display: none;
-    }
-  }
-  
-  @media screen and (min-width: 871px) {
-    .show {
-      display: none;
-    }
-    
-    .mdl-layout__header .mdl-layout__drawer-button {
-      display: none;
-    }
-  }
-  
-  .show a {
-    text-align: center;
-  }
-  
-  .abril-fatface-regular {
-    font-family: "Abril Fatface", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-  }
-  
-  .head {
-    padding: 2.4% 0;
-  }
-  
-  .mdl-layout__drawer-button {
-    padding: 3%;
-  }
-  
-  .mdl-grid {
+
+  .nav-links.open {
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
-  
-  .heading1 {
-    padding: 0.5%;
-    color: white;
-    font-family: "Abril Fatface", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 80px;
+
+  .hamburger.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
   }
-  
-  .mukta-mahee-extralight {
-    font-family: "Mukta Mahee", sans-serif;
-    font-weight: 200;
-    font-size: 30px;
-    font-style: normal;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .hamburger.open .bar:nth-child(2) {
+    opacity: 0;
   }
-  
-  .transparent-button {
-    background-color: transparent; 
-    border: 2px solid white; 
-    color: white; 
-    padding: 10px 20px;
-    font-size: 16px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
-  
-    
-    outline: none;
-    text-decoration: none; 
-    border-radius: 4px;
-    font-family: "Mukta Mahee", sans-serif;
+
+  .hamburger.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
   }
-  
-  .transparent-button:hover {
-    background-color: rgb(255, 255, 255); 
-    color: black;
-  }
-  
-  .btndiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-  }
-  
-  @media screen and (max-width: 849px) {
-    .heading1 {
-      font-size: 50px;
-      padding-top: 100px;
-    }
-  
-    .mukta-mahee-extralight {
-      font-size: 18px;
-    }
-  }
-   */
+}
