@@ -1,0 +1,19 @@
+.main1{
+    background-color: chocolate;
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-heading{
+    height: 15%;
+    background-color: cadetblue;
+}
+.main-para{
+    background-color: cornflowerblue;
+    height: 15%;
+}
+.main-btn{
+    height: 15%;
+    background-color: chartreuse;
+}
