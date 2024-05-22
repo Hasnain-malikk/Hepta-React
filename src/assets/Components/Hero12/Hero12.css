@@ -1,5 +1,5 @@
 .hero12{
-    background-color: rgb(218, 218, 101);
+    /* background-color: rgb(218, 218, 101); */
     height: 105vh;
     display: flex;
     justify-content: space-evenly;
@@ -7,12 +7,12 @@
       
 }
 .pic12{
-    background-color: cyan;
+    /* background-color: cyan; */
     height: 90%;
     width: 45%;
 }
 .text12{
-    background-color: crimson;
+    /* background-color: crimson; */
     height: 90%;
     width: 45%;
     display: flex;
@@ -21,8 +21,8 @@
    
 }
 .heading12{
-    background-color: aquamarine;
-    height: 10%;
+    /* background-color: aquamarine; */
+    height: 15%;
     font-weight: 500;
     font-family: 'Abril Fatface';
     font-size: 40px;  
@@ -30,7 +30,7 @@
     align-items: center;
 }
 .para121{
-    background-color: rgb(97, 48, 58);
+    /* background-color: rgb(97, 48, 58); */
     height: 20%;
     font-family: 'Mukta Mahee';
     font-size: 18px;
@@ -39,7 +39,7 @@
     line-height: 32px;
 }
 .para122{
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
     height: 15%;
     font-family: 'Mukta Mahee';
     font-size: 18px;
@@ -48,7 +48,7 @@
     line-height: 32px;
 }
 .btn12{
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     height: 20%;
     display: flex;
     /* justify-content: center; */
@@ -61,12 +61,14 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
 }
 
 .transparent-button {
+    font-family: 'Mukta Mahee';
+    letter-spacing: 3px;
     background-color: transparent;
-    border: 2px solid #65C0BA; /* Border color */
+    border: 2px solid #65C0BA; 
     color: black; /* Text color */
     padding: 10px 20px;
     font-size: 16px;
@@ -79,7 +81,11 @@ body {
     background-color: #65C0BA;
     color: white;
 }
-
+.pic12 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 @media screen and (max-width:600px) {
     .hero12{
         flex-direction: column;
@@ -94,6 +100,9 @@ body {
         width: 90%;
         margin: 10px;
 
+    }
+    .para121{
+        height: 23%;
     }
     
 }

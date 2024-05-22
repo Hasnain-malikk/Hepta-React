@@ -62,7 +62,7 @@
 .main-para a:hover {
     color:white;
 }
-.main-btn{
+.main-btn1{
     padding:10px 0 ;
     height: auto;
     /* background-color: chartreuse; */
@@ -72,7 +72,7 @@
     z-index: 1;
 }
 
-.transparent-button {
+.transparent-button1 {
     letter-spacing: 3px;
     font-family: "Mukta Mahee", sans-serif;
     font-weight: 400;
@@ -87,7 +87,7 @@
     transition: background-color 0.3s, color 0.3s; 
   }
   
-  .transparent-button:hover {
+  .transparent-button1:hover {
     background-color: white;
     color: black;              
   }

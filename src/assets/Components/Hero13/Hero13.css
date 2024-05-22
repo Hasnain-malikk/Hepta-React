@@ -1,5 +1,5 @@
 .hero13{
-    background-color: rgb(134, 101, 218);
+    /* background-color: rgb(134, 101, 218); */
     height: 105vh;
     display: flex;
     justify-content: space-evenly;
@@ -7,14 +7,22 @@
     
 }
 .pic13{
-    background-color: rgb(255, 0, 0);
+    /* background-color: rgb(255, 0, 0); */
     height: 90%;
     width: 45%;
 }
 .text13{
-    background-color: rgb(150, 49, 70);
+    /* background-color: rgb(150, 49, 70); */
     height: 90%;
     width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.pic13 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 @media screen and (max-width:600px) {
     .hero13{

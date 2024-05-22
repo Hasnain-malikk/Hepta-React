@@ -6,7 +6,7 @@ import s3 from "../Media/s3.webp"
 import s4 from "../Media/s4.webp"
 import s5 from "../Media/s5.webp"
 
-const Carousel = () => {
+const Carousel = ({heading,paragraph}) => {
   const carouselRef = useRef(null);
 
   useEffect(() => {
@@ -49,8 +49,8 @@ const Carousel = () => {
   return (
     <>
     <div className="textt">
-      <div className='heading2'>International Tour Management.</div>
-      <div className="para33">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</div>
+      <div className='heading2'>{heading}</div>
+      <div className="para33">{paragraph}</div>
     </div>
     <div className="car">
     <div className='carousel' ref={carouselRef}>
