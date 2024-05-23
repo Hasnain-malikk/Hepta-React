@@ -1,0 +1,72 @@
+.people{
+    height: 300vh;
+    background-color: chartreuse;
+}
+.text44{
+    height: 20%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.main44{
+    height: 70%;
+    background-color: cornflowerblue;
+}
+.card44{
+    background-color: coral;
+    height: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.card55{
+    background-color: bisque;
+    height: 90%;
+    width: 30%;
+}
+.heading44{
+    background-color: crimson;
+    height: 20%;
+    font-family: "Abril Fatface", serif; 
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para44{
+    background-color: cornsilk;
+    height: 45%;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgb(108, 117, 125);
+    text-align: center;
+    padding: 0 250px;
+}
+@media screen and (max-width:600px) {
+    .card44{
+        height: 55%;
+    }
+    .people{
+        height: 160vh;
+    }
+    .para44{
+        margin: 0 10px;
+        line-height: 30px;
+        padding: 0;
+        height: 65%;
+        font-size: 16px;
+    }
+    .heading44{
+        height: 25%;
+        padding: 0 10px;
+    }
+    
+}

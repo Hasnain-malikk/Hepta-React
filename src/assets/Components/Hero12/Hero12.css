@@ -103,6 +103,10 @@ body {
     }
     .para121{
         height: 23%;
+        margin: 0 0 20px 0;
+    }
+    .para122{
+        padding:7px 0 20px 0;
     }
     
 }

@@ -24,7 +24,6 @@
   
   .main14 > * {
     position: relative;
-    z-index: 2; 
   }
   @media screen and (max-width:600px) {
     .main14{
