@@ -1,4 +1,5 @@
 .main14 {
+    width: 99vw;
     position: relative;
     background-image: url(../Media/s3.webp);
     height: 130vh;
@@ -25,4 +26,8 @@
     position: relative;
     z-index: 2; 
   }
-  
+  @media screen and (max-width:600px) {
+    .main14{
+      width: 100vw;
+    }
+  }

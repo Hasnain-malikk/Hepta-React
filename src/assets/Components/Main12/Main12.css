@@ -1,4 +1,5 @@
 .main12 {
+    width:99vw ;
     position: relative;
     background-image: url(../Media/s5.webp);
     height: 130vh;
@@ -25,4 +26,5 @@
     position: relative;
     z-index: 2; 
   }
+  
   
