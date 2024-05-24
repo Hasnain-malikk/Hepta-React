@@ -10,11 +10,55 @@
     background-color: aqua;
     width: 55%;
     height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 .info{
     background-color: aquamarine;
     width: 32%;
     height: 85%;
+}
+.field1{
+    background-color: darkmagenta;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.field2{
+    background-color: darkolivegreen;
+    height: 15%;
+}
+.field3{
+    background-color: cornsilk;
+    height: 40%;
+}
+.btn46{
+    background-color: rgb(210, 210, 10);
+    height: 10%;
+}
+.address{
+    background-color: darkgrey;
+    height: 25%;
+}
+.phone{
+    background-color: cyan;
+    height: 15%;
+}
+.email{
+    background-color: darkred;
+    height: 15%;
+}
+.namee{
+    background-color: rgb(29, 124, 124);
+    height: 100%;
+    width: 47%;
+}
+.phonee{
+    background-color: rgb(24, 49, 49);
+    height: 100%;
+    width: 47%;
 }
 @media screen and (max-width:600px) {
     .contactf{
