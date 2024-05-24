@@ -1,0 +1,31 @@
+.contactf{
+    background-color: pink;
+    height: 150vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    background-color: aqua;
+    width: 55%;
+    height: 85%;
+}
+.info{
+    background-color: aquamarine;
+    width: 32%;
+    height: 85%;
+}
+@media screen and (max-width:600px) {
+    .contactf{
+        flex-direction: column;
+        height: 220vh;
+    }
+    .info{
+        height: 65%;
+        width: 90%;
+    }
+    .form{
+        width: 90%;
+    }
+    
+}
