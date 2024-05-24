@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .form{
     background-color: aqua;
@@ -19,6 +20,8 @@
     .contactf{
         flex-direction: column;
         height: 220vh;
+        gap: 35px;
+        padding: 55px 5px;
     }
     .info{
         height: 65%;
