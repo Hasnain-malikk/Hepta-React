@@ -31,6 +31,7 @@
     /* background-color: cornflowerblue; */
 }
 .cardz1{
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
     /* background-color: darkgreen; */
     height: 30%;
     width: 47%;
