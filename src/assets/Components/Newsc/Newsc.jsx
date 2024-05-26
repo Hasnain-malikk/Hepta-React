@@ -111,7 +111,16 @@ const Newsc = () => {
                 </div></div>
             </div>
         </div>
-        <div className="cat"></div>
+        <div className="cat">
+            <div className="mmain">Categories</div>
+            <div className="heade">
+                <div className='gh'>Events</div>
+                <div className="br">(12)</div>
+            </div>
+            <div className="heade"></div>
+            <div className="heade"></div>
+            <div className="heade"></div>
+        </div>
       </div>
     </div>
   )
