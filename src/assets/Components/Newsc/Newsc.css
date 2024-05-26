@@ -1,0 +1,140 @@
+.newsc{
+    background-color: aquamarine;
+    height: 280vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cardf{
+    background-color: beige;
+    height: 90%;
+    width: 55%;
+}
+.postf{
+    height: 90%;
+    width: 30%;
+    background-color: cadetblue;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.cardz{
+    height: 90%;
+    background-color: darkkhaki;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wed{
+    height: 10%;
+    background-color: cornflowerblue;
+}
+.cardz1{
+    background-color: darkgreen;
+    height: 30%;
+    width: 47%;
+}
+.search12{
+    background-color: deepskyblue;
+    height: 10%;
+}
+.popular{
+    background-color: darkslateblue;
+    height: 35%;
+}
+.cat{
+    background-color: crimson;
+    height: 25%;
+}
+.pic120{
+    background-color: aliceblue;
+    height: 60%;
+}
+.date120
+{
+    padding-left: 20px;
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    height: 15%;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(206, 212, 218);
+}
+.head120{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 26px; 
+    background-color: mediumorchid;
+    height: 25%;
+    padding-left: 20px;
+    line-height: 31px;
+}
+.pic120 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.wed{
+    display: flex;
+    gap: 5px;
+}
+.s11, .s22, .s33{
+    height: 49%;
+    width: 10%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.s11{
+    background-color: #65C0BA;
+    color: white;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.5)
+}
+.s22{
+    background-color: white;
+    color: #65C0BA;
+}
+.s33{
+    background-color: white;
+    color: #65C0BA;
+}
+@media screen and (max-width:600px) {
+    .newsc{
+        height: 500vh;
+        flex-direction: column;
+    }
+    .cardf{
+        width: 90%;
+        margin: 40px 0;
+    }
+    .postf{
+        width: 90%;
+    }
+    .wed{
+        height: 7%;
+    }
+    .search12{
+        height: 7%;
+    }
+    .popular{
+        height: 50%;
+    }
+    .cat{
+        height: 30%;
+    }
+    .s11, .s22, .s33{
+        height: 60%;
+        font-size: 15px;
+    }
+
+    
+}
