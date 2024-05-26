@@ -37,6 +37,7 @@
     width: 47%;
 }
 .search12{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     padding-left: 25px;
@@ -44,10 +45,12 @@
     height: 7%;
 }
 .popular{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
     /* background-color: darkslateblue; */
     height: 48%;
 }
 .cat{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
     /* background-color: crimson; */
     height: 25%;
     display: flex;
@@ -295,7 +298,7 @@ button, input, optgroup, select, textarea {
     font-style: normal;
     font-size: 18px;
     /* background-color:chartreuse ; */
-    height: 20%;
+    height: 9%;
     width: 90%;
   }
   .heade{
