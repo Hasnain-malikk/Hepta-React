@@ -6,7 +6,7 @@ import p3 from "../Media/p3.webp"
 
 const Customers = () => {
   return (
-    <div className='customer'>
+    <div className= 'customer'>
       <div className="heading9">Happy Customers</div>
       <div className="review">
         <div className="custom1">

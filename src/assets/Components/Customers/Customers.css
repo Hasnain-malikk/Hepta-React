@@ -1,6 +1,7 @@
 .customer{
     background-color: #FAFAFA;
     height: 125vh;
+    border-top:1px solid #e0e0e0 ;
 }
 .heading9{
     height: 35%;

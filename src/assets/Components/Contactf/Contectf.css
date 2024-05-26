@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 20px;
+    padding: 80px 50px;
     gap: 20px;
     flex-wrap: wrap;
+    background-color: white;
   }
   
   .form {
@@ -13,7 +14,7 @@
     width: 60%;
     padding: 50px 25px 25px 25px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 20px -5px rgba(0, 0, 0, 0.5)
   }
   
   .field1, .field2, .field3 {
