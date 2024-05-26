@@ -33,9 +33,13 @@ const Contectf = () => {
         </div>
       </div>
       <div className="info">
-        <div className="address">Address: 123 Main St, Anytown, USA</div>
-        <div className="phone">Phone: (123) 456-7890</div>
-        <div className="email">Email: info@example.com</div>
+        <div className="addressw" id='bb'>ADDRESS:</div>
+        <div className="aaddress">98 West 21th Street, Suite</div>
+        <div className="aaddress" id='aa'>721 New York NY 10016</div>
+        <div className="phonew">PHONE:</div>
+        <div className="phnw">(+1) 435 3533</div>
+        <div className="emailw">Email:</div>
+        <div className="emlw">info@yourdomain.com</div>
       </div>
     </div>
   );

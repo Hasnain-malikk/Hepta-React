@@ -76,11 +76,37 @@
   }
   
   .info {
+    height: 10%;
     /* background-color: aquamarine; */
     width: 32%;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    /* border-radius: 8px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  .addressw, .phonew, .emailw{
+    padding: 20px 0 0 0;
+    letter-spacing: 2px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    height: 10%;
+    color: rgb(101, 192, 186);
+    /* background-color: blue; */
+  }
+  .aaddress, .phnw, .emlw{
+    padding: 20px 0;
+    font-family: "Abril Fatface", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px; 
+    /* background-color: chocolate; */
+  }
+  #aa{
+    padding:0 0 23px 0 ;
+  }
+  #bb{
+    padding: 0;
   }
   
   .address, .phone, .email {
