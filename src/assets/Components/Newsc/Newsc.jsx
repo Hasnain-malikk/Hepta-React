@@ -117,9 +117,12 @@ const Newsc = () => {
                 <div className='gh'>Events</div>
                 <div className="br">(12)</div>
             </div>
-            <div className="heade"></div>
-            <div className="heade"></div>
-            <div className="heade"></div>
+            <div className="heade"><div className='gh'>Resto bar</div>
+                <div className="br">(4)</div></div>
+            <div className="heade"><div className='gh'>Celebration</div>
+                <div className="br">(23)</div></div>
+            <div className="heade"><div className='gh'>Promos</div>
+                <div className="br">(8)</div></div>
         </div>
       </div>
     </div>
