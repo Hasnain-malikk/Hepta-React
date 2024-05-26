@@ -60,6 +60,24 @@
     height: 100%;
     width: 47%;
 }
+.ph1{
+    background-color: blanchedalmond;
+    height:65%;
+}
+.ph1 input{
+    color: red;
+    border: 1px solid red;
+}
+.ph2{
+    background-color: burlywood;
+    height: 35%;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgb(108, 117, 125);
+}
 @media screen and (max-width:600px) {
     .contactf{
         flex-direction: column;
