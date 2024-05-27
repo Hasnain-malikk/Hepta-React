@@ -77,12 +77,12 @@ const Footer = () => {
                     <div className='social-links'>
                         <ul>
                             <li>
-                                <a href="#" title="Instagram">
+                                <a target='_blank' href="https://www.instagram.com/malikhasnaindev/" title="Instagram">
                                     <img src={instagram} alt='Instagram' />                       
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="Linkedin">
+                                <a target='_blank' href="https://www.linkedin.com/in/hasnain-mahvia-7a2b392a2/" title="Linkedin">
                                     <img src={linkedin} alt='Linkedin' />
                                 </a>
                             </li>
@@ -97,13 +97,13 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="GitHub">
+                                <a target='_blank' href="https://github.com/Hasnain-malikk" title="GitHub">
                                     <img src={github} alt='GitHub' />
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <small>© Atheros Intelligence Ltd. <span id="year">{new Date().getFullYear()}</span>, All rights reserved</small>
+                    <small>© Malik Hasnain <span id="year">{new Date().getFullYear()}</span>, All rights reserved</small>
                 </div>
             </div>
         </footer>
