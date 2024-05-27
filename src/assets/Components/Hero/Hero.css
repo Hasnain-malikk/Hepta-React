@@ -1,6 +1,6 @@
 .main {
      /* background-color: brown; */
-     height: 100vh;
+     height: 120vh;
      width: 98vw;
      display: flex;
      align-items: center;
@@ -59,7 +59,7 @@
      font-style: normal;
      font-size: 18px;
      line-height: 32px;
-     padding: 65px 0 62px 0;
+     padding: 50px 0 62px 0;
      color: rgb(108, 117, 125);
 }
 .btn {
@@ -75,7 +75,7 @@
 }
 .play {
      border: 2px solid lightgray;
-     padding: 10px 15px 10px 15px;
+     padding: 10px 15px 10px 19px;
      border-radius: 50%;
 }
 .overlay {
@@ -119,6 +119,15 @@
      }
      .main{
           height: 200vh;
+     }
+     .para2{
+          padding-top: 65px;
+     }
+     .heading{
+          padding-bottom: 55px;
+     }
+     .play{
+          padding: 11px 15px 9px 18px;
      }
 
 }

@@ -24,10 +24,18 @@
     width: 100%;
     object-fit: cover;
 }
+.br{
+    color: rgb(108, 117, 125);
+}
+.head120:hover{
+    color: #65C0BA;
+    
+
+}
 @media screen and (max-width:600px) {
     .hero13{
         flex-direction: column;
-        height: 200vh;
+        height: 250vh;
     }
     .text13{
        height: 90%;
