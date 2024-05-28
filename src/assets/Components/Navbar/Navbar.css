@@ -38,7 +38,7 @@
 }
 
 .nav-links {
- 
+
   font-family: "Mukta Mahee", sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -54,7 +54,7 @@
   }
 
   .nav-links {
-    height: calc(100vh - 100px);
+    height: calc(50vh - 100px);
     display: none;
     flex-direction: column;
     position: absolute;

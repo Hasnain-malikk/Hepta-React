@@ -110,3 +110,20 @@ body {
     }
     
 }
+@media screen and (max-width:430px) {
+    .pic12 img {
+        height: 60%;
+    }
+    .pic12{
+        height: 30%;
+    }
+    .text12{
+        height:35vh;
+    }
+    .para122{
+        padding: 45px 0 75px 0;
+    }
+    .para121{
+        margin: 20px 0;
+    }
+}
