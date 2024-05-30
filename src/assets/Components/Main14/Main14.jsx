@@ -5,7 +5,7 @@ const Main14 = () => {
   return (
     <div className='main14'>
       <div className="main-heading">Gallery</div>
-      <div className="main-para">A free template by &nbsp;<a href="/">Colorlib</a>. Download and share!</div>
+      <div className="main-para">Wander the <strong>World</strong> with Hepta!</div>
     </div>
   )
 }

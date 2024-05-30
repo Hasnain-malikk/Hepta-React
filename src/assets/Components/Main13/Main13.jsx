@@ -5,7 +5,7 @@ const Main13 = () => {
     <div>
        <div className='main12'>
       <div className="main-heading">Gallery</div>
-      <div className="main-para">A free template by &nbsp;<a href="/">Colorlib</a>. Download and share!</div>
+      <div className="main-para">Travel Beyond Boundaries with <strong>&nbsp;Hepta!&nbsp;</strong></div>
     </div>
     </div>
   )
